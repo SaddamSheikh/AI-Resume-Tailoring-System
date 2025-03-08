@@ -37,15 +37,15 @@ This project provides a seamless workflow to customize your resume for job appli
    Or download and extract the ZIP file
 
 2. **🐍 Install Python**
-   Download from https://www.python.org/downloads/
-   After installation, verify with:
+   - Download from https://www.python.org/downloads/
+   - After installation, verify with:
    ```powershell
    python --version
    ```
 
 4. **📑 Install LaTeX**
-   Download and install MiKTeX from: https://miktex.org/download
-   After installation, verify with:
+   - Download and install MiKTeX from: https://miktex.org/download
+   - After installation, verify with:
    ```powershell
    pdflatex --version
    ```
@@ -59,7 +59,7 @@ This project provides a seamless workflow to customize your resume for job appli
    - Visit [Google AI Studio](https://aistudio.google.com/) to obtain an API key
    - Set the API key as a permanent environment variable:
      
-     For permanent storage (Run Powershell as Administrator)
+     - For permanent storage (Run Powershell as Administrator)
      ```powershell
      [System.Environment]::SetEnvironmentVariable("GEMINI_API_KEY", "your-api-key-here", "Machine")
      ```
@@ -69,15 +69,15 @@ This project provides a seamless workflow to customize your resume for job appli
 ### ⚡ Quick Start (Windows)
 
 1. **📝 Edit the job description file**
-   Open JD.txt in your favorite editor
+   - Open JD.txt in your favorite editor
    ```powershell
    notepad JD.txt
    ```
-   Paste the job description and save
+   - Paste the job description and save
 
 3. **▶️ Run the tailoring script**
-   Either double-click on Resume_Tailor.bat
-   Or run it from PowerShell
+   - Either double-click on Resume_Tailor.bat
+   - Or run it from PowerShell
    ```powershell
    .\Resume_Tailor.bat
    ```
@@ -109,11 +109,11 @@ The PowerShell script accepts the following parameters:
 ## ✏️ Customizing Your Resume
 
 1. **📄 Edit the LaTeX template**
-   Open the template in your favorite editor
+   - Open the template in your favorite editor
    ```powershell
    notepad myresume.tex
    ```
-   Update your personal information, work experience, education, and skills
+   - Update your personal information, work experience, education, and skills
 
 3. **🧩 The AI tailoring process** will preserve your resume structure while optimizing the content for each job application
 
