@@ -1,0 +1,46 @@
+##############################################################
+# AI Resume Tailoring Project - Requirements
+# Author: Project Team
+# Version: 1.0.0
+# Description: Python dependencies for the AI Resume Tailoring project
+#              that uses Google Gemini AI to customize resumes for 
+#              specific job descriptions
+##############################################################
+
+# ----- CORE DEPENDENCIES ----- #
+# Required for the application to function properly
+
+# Google Generative AI - Official API for accessing Gemini AI models
+google-generativeai>=0.3.0,<0.4.0
+
+# Requests - HTTP library for API communication
+requests>=2.31.0,<3.0.0
+
+# ----- OPTIONAL DEPENDENCIES ----- #
+# Recommended for improved functionality and security
+
+# Python-dotenv - Load environment variables from .env files
+python-dotenv>=1.0.0,<2.0.0
+
+# ----- DEVELOPMENT DEPENDENCIES ----- #
+# Only needed for development purposes
+# To install dev dependencies: pip install -r requirements.txt[dev]
+
+# Testing framework
+pytest>=7.3.1,<8.0.0
+
+# Code quality tools
+black>=23.3.0,<24.0.0     # Code formatter
+pylint>=2.17.0,<3.0.0     # Static code analyzer
+isort>=5.12.0,<6.0.0      # Import sorter
+
+# ----- NOTES ----- #
+# The following modules are part of Python's standard library and do not 
+# need to be installed separately:
+# - json: JSON encoding/decoding
+# - re: Regular expressions
+# - os, sys: Operating system interfaces
+# - time: Time access and conversions
+# - argparse: Command-line argument parsing
+# - typing: Type hints support
+# - traceback: Exception traceback utilities

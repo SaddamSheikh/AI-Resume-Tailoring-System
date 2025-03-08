@@ -1,0 +1,41 @@
+Dear Saddam,
+
+We just discovered your impressive profile, and we believe you could be an excellent fit for our Security Analyst-VAPT role.
+
+Your Bachelor of Technology (B.Tech/B.E) background, and experience at Tata Consultancy Services as a Cyber Security Engineer aligns perfectly with the 2 years to 4 years of experience we are seeking.
+
+Your quick response to this message is important. It will allow our HR team to reach out and discuss next steps for the interview.
+We look forward to working with you and exploring how your skills can contribute to our team's success.
+
+Please find the job description for the role:
+We are seeking a skilled Security Analyst with expertise in Vulnerability Assessment and Penetration Testing (VAPT) to join our dynamic team in Mumbai. The ideal candidate will have 2-4 years of hands-on experience in identifying and mitigating security vulnerabilities in various systems and applications. This role requires a proactive individual who is passionate about cybersecurity and staying ahead of emerging threats.
+
+Responsibilities
+Conduct thorough vulnerability assessments and penetration testing on various systems, networks, and applications.
+Identify, analyze, and report security vulnerabilities and recommend remediation strategies.
+Stay updated with the latest security trends, threats, and technology solutions relevant to the industry.
+
+Total No of positions: 8
+Salary Range: Maximum 8LPA.
+Need Immediate Joiners in Mumbai
+
+Skills and Qualifications
+Bachelor's degree in Computer Science, Information Technology, Cybersecurity, or a related field.
+2-4 years of experience in security analysis, only in vulnerability assessment and penetration testing.
+Proficient in using security tools such as Burp Suite, Nessus, Metasploit, and Wireshark.
+Strong understanding of networking protocols, firewalls, and intrusion detection/prevention systems.
+Experience with scripting languages such as Python or Bash for automation of security tasks.
+Certifications such as CEH (Certified Ethical Hacker), OSCP (Offensive Security Certified Professional), or equivalent are highly desirable.
+All candidates, with required expertise, can share their resume at hiring@purplesynapz.com , mentioning the subject line as "Application for VAPT role, Mumbai", and current CTC, Expected CTC, Notice period.
+
+
+Apply
+Reply
+Job Information
+Designation:	Security Analyst-VAPT
+Experience:	2 to 4 years
+Salary:	₹ 2,00,000 to ₹ 8,00,000 per annum
+Location:	Mumbai, Navi Mumbai, Mumbai City
+Job mode:	WFO (Work From Office)
+
+Company: Purplesynapz Labs Private Limited

@@ -1,0 +1,189 @@
+\documentclass[a4paper,11pt]{article}
+
+% ---------------------------------------------------------------
+% Packages and Font Setup
+% ---------------------------------------------------------------
+\usepackage[empty]{fullpage}
+\usepackage[margin=0.75in]{geometry}         % Set margins
+\usepackage[T1]{fontenc}                     % Font encoding
+% Original Helvetica settings removed:
+% \usepackage[scaled]{helvet}                  % Helvetica font for modern look
+% \renewcommand{\familydefault}{\sfdefault}    % Use sans-serif throughout
+\usepackage{xcolor}                          % For colored text
+\usepackage[colorlinks=true,linkcolor=primary,urlcolor=primary,citecolor=primary]{hyperref}             % Colored hyperlinks
+\usepackage{enumitem}                        % Custom bullet lists
+\usepackage{tabularx}                        % For tables
+\usepackage{ragged2e}                        % For text alignment
+\usepackage{setspace}                        % Adjust line spacing
+\usepackage{titlesec}                        % For section formatting
+\usepackage{iftex}                           % Check if engine is pdflatex, xetex or luatex
+
+% Font settings from ABC LaTeX code
+\ifPDFTeX
+    \input{glyphtounicode}
+    \pdfgentounicode=1
+    \usepackage[utf8]{inputenc}
+    \usepackage{lmodern}
+\fi
+
+% ---------------------------------------------------------------
+% Colors
+% ---------------------------------------------------------------
+\definecolor{primary}{RGB}{0,82,113}
+\definecolor{accent}{RGB}{0,110,142}
+\definecolor{lightgray}{RGB}{245,245,245}
+\definecolor{darkgray}{RGB}{70,70,70}
+
+% ---------------------------------------------------------------
+% Custom Section Title Formatting
+% ---------------------------------------------------------------
+\titleformat{\section}{\Large\bfseries\scshape\raggedright\color{primary}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{12pt}{10pt}
+
+% ---------------------------------------------------------------
+% General Formatting Settings
+% ---------------------------------------------------------------
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=*, itemsep=5pt, parsep=2pt}
+\renewcommand{\baselinestretch}{1.05}
+
+% ---------------------------------------------------------------
+% Header Command with Icons (ATS-friendly: icons are for visual appeal only)
+% ---------------------------------------------------------------
+\newcommand{\header}[4]{
+{\centering{\Huge\textbf{#1}}\par}
+\vspace{4pt}
+\centering{
+    Phone: \href{tel:#2}{#2} \quad $|$ \quad
+    Email: \href{mailto:#3}{#3} \quad $|$ \quad
+    LinkedIn: \href{#4}{SaddamSheikh}
+}
+\vspace{-6pt}
+}
+
+% ---------------------------------------------------------------
+% Section Title Command
+% ---------------------------------------------------------------
+\newcommand{\sectiontitle}[1]{\section*{#1}}
+
+% ---------------------------------------------------------------
+% Experience Entry Command (for concise listing)
+% ---------------------------------------------------------------
+\newcommand{\experienceentry}[4]{
+\textbf{\textcolor{primary}{#1}} \hfill \textbf{#2} \\
+\textit{#3} \hfill \textit{#4} \\
+}
+
+% ---------------------------------------------------------------
+% Project Entry Command
+% ---------------------------------------------------------------
+\newcommand{\projectentry}[2]{
+\raggedright\textbf{\textcolor{primary}{#1}}: \textit{#2} \\
+}
+
+% ---------------------------------------------------------------
+% Begin Document
+% ---------------------------------------------------------------
+\begin{document}
+
+% ---------------------------------------------------------------
+% 1. CONTACT INFORMATION & PROFESSIONAL LINKS
+% ---------------------------------------------------------------
+\header{Saddam Sheikh}{+91 8379015503}{saddamsheikh1729@gmail.com}{https://www.linkedin.com/in/saddamsheikh/}
+
+% ---------------------------------------------------------------
+% 2. PROFESSIONAL SUMMARY
+% ---------------------------------------------------------------
+\sectiontitle{Professional Summary}
+\begin{itemize}
+\item \textbf{Strategic Cybersecurity Professional:} Over 3 years of specialized experience in vulnerability management and penetration testing, with a proven record of mitigating 50+ critical vulnerabilities.
+\item \textbf{Certifications and Proficiency:} Certified in CompTIA Security+, Ethical Hacking, and Full-stack Java Development; adept at leveraging Tenable.IO, Tenable.ASM, and Burp Suite to reduce security incidents by 20\% year-over-year.
+\item \textbf{Operational Excellence:} Demonstrated success in identifying and resolving 120+ security weaknesses across 30+ web applications while maintaining an 85\% on-time remediation rate.
+\item \textbf{Process Automation and Training:} Skilled in automating security processes—reducing scan/reporting time by 25\%—and delivering targeted training sessions that cut vulnerability introduction rates by 18\%.
+\end{itemize}
+
+% ---------------------------------------------------------------
+% 3. TECHNICAL SKILLS MATRIX
+% ---------------------------------------------------------------
+\sectiontitle{Technical Skills}
+\begin{itemize}[leftmargin=*]
+\item \textbf{Security Tools:} Tenable.IO, Tenable.ASM, Burp Suite, Metasploit, Nmap, Nessus, Wireshark, Kali Linux, OWASP ZAP
+\item \textbf{Security Domains:} Vulnerability Assessment, Penetration Testing (VAPT), Application Security, Secure Code Review, Incident Management, Network Security, Web Application Security
+\item \textbf{Programming:} Java (3+ years), JavaScript, Python, PowerShell, Bash scripting (25+ scripts)
+\item \textbf{Operating Systems:} Linux (Ubuntu, Kali, CentOS), Windows Server 2019/2022
+\item \textbf{Soft Skills:} Analytical Thinking, Technical Documentation (45+ reports), Problem-Solving, Client Communication, Risk Analysis, Security Awareness Training (5+ sessions)
+\end{itemize}
+
+% ---------------------------------------------------------------
+% 4. PROFESSIONAL EXPERIENCE
+% ---------------------------------------------------------------
+\sectiontitle{Professional Experience}
+\experienceentry{Cybersecurity Engineer}{Tata Consultancy Services}{Pune, Maharashtra}{Dec 2021 -- Jan 2025}
+\begin{itemize}
+\item \textbf{Comprehensive Assessments:} Orchestrated 75+ vulnerability assessments and penetration tests using Tenable.IO and Tenable.ASM across 50+ client applications, achieving a 70\% reduction in critical vulnerabilities and cutting overall security incidents by 20\%.
+\item \textbf{Advanced Testing and Remediation:} Conducted manual penetration tests with Burp Suite, Nmap, and Metasploit, reducing false positives by 15\% and enhancing remediation efficiency by 18\%.
+\item \textbf{Automation of Security Operations:} Engineered and deployed 25+ custom security scripts (Python/Bash) that reduced scan and reporting time by 22\%, thereby increasing team productivity.
+\item \textbf{Stakeholder Engagement:} Fostered strong collaborations with client security teams and 10+ developer groups to secure an 85\% on-time remediation rate for critical security issues.
+\item \textbf{Security Training and Knowledge Sharing:} Led 10+ training sessions for over 75 developers on secure coding practices, directly contributing to an 18\% decrease in vulnerability introduction in new code.
+\item \textbf{Cross-functional Contributions:} Actively contributed to web application development by implementing robust client-side validation (reducing common input attacks by 75\%) and developing 45+ detailed security documentation artifacts.
+\end{itemize}
+
+% ---------------------------------------------------------------
+% 5. KEY PROJECTS
+% ---------------------------------------------------------------
+\sectiontitle{Key Projects}
+\projectentry{WesternPower}{Vulnerability Management and Remediation using Tenable.IO, Tenable.ASM, and Burp Suite}
+\begin{itemize}
+\item Spearheaded vulnerability tracking for 18 web applications, reducing overall risk score by 25\% within 6 months.
+\item Executed rigorous penetration tests on critical modules, lowering false positive rates by 20\% and prioritizing remediation based on CVSS metrics.
+\item Collaborated with 5 client security teams to ensure an 85\% on-time resolution rate, cutting average time-to-fix from 15 to 10 days.
+\item Authored 22+ procedural documents and security guidelines, boosting team knowledge sharing by 25\% and operational efficiency by 18\%.
+\end{itemize}
+
+\projectentry{MetLife Insurance}{Secure Web Application Development using Java, JavaScript, HTML, CSS, GIT, and JUnit}
+\begin{itemize}
+\item Developed and maintained secure web applications, integrating 15+ security controls per OWASP standards.
+\item Created 10+ comprehensive use cases and design diagrams (class and sequence diagrams), increasing security requirements coverage by 28\%.
+\item Contributed to 7 critical application modules with secure coding practices, reducing code-level vulnerabilities by 22\% compared to previous releases.
+\item Implemented robust client-side validation for 10+ forms, enhancing application security and reducing invalid submissions by 40\%.
+\end{itemize}
+
+% ---------------------------------------------------------------
+% 6. CERTIFICATIONS
+% ---------------------------------------------------------------
+\sectiontitle{Certifications}
+\begin{tabularx}{\textwidth}{X r}
+\textbf{CompTIA Security+} - CompTIA & November 2024 \\
+\textbf{Cybersecurity Analyst Job Simulation} - Forage & May 2024 \\
+\textbf{Foundations of Cybersecurity} - Google & July 2023 \\
+\textbf{Ethical Hacking} - Hacker School (Cartel Software Pvt. Ltd.) & January 2019 \\
+\end{tabularx}
+
+% ---------------------------------------------------------------
+% 7. EDUCATION
+% ---------------------------------------------------------------
+\sectiontitle{Education}
+\begin{tabularx}{\textwidth}{X r}
+\textbf{Bachelor of Engineering (Computer Science and Engineering)} & August 2017 -- August 2021 \\
+Government College of Engineering, Chandrapur, Maharashtra & CGPA: 7.78/10 \\
+\end{tabularx}
+
+% ---------------------------------------------------------------
+% 8. LANGUAGES
+% ---------------------------------------------------------------
+\sectiontitle{Languages}
+\begin{tabularx}{\textwidth}{X r}
+\textbf{English} & Full Professional Proficiency \\
+\textbf{Hindi} & Native or Bilingual Proficiency \\
+\textbf{Marathi} & Native or Bilingual Proficiency \\
+\end{tabularx}
+
+% ---------------------------------------------------------------
+% NOTES: FORMATTING & ATS OPTIMIZATION
+% ---------------------------------------------------------------
+% - Reformatted to use the Latin Modern font instead of Helvetica.
+% - Robust bullet points with dynamic action verbs and quantifiable metrics enhance recruiter appeal.
+% - Standard section headings and clear tool names ensure ATS compatibility.
+% - Save as a PDF (e.g., "Saddam_Sheikh_Cybersecurity_Resume.pdf") to preserve formatting.
+\end{document}
+
