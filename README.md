@@ -32,9 +32,9 @@ This project provides a seamless workflow to customize your resume for job appli
 
 1. **📥 Clone or download this repository**
    ```powershell
-   git clone <repository-url>
-   # Or download and extract the ZIP file
+   git clone https://github.com/SaddamSheikh/AI-Resume-Tailoring-System.git
    ```
+   Or download and extract the ZIP file
 
 2. **🐍 Install Python**
    ```powershell
