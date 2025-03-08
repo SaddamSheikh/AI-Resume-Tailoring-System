@@ -37,30 +37,30 @@ This project provides a seamless workflow to customize your resume for job appli
    Or download and extract the ZIP file
 
 2. **🐍 Install Python**
+   Download from https://www.python.org/downloads/
+   After installation, verify with:
    ```powershell
-   # Download from https://www.python.org/downloads/
-   # After installation, verify with:
    python --version
    ```
 
-3. **📑 Install LaTeX**
+4. **📑 Install LaTeX**
+   Download and install MiKTeX from: https://miktex.org/download
+   After installation, verify with:
    ```powershell
-   # Download and install MiKTeX from: https://miktex.org/download
-   # After installation, verify with:
    pdflatex --version
    ```
 
-4. **📦 Install the required Python package**
+6. **📦 Install the required Python package**
    ```powershell
    pip install -r requirements.txt
    ```
 
-5. **🔑 Set up Google Gemini API Key**
+7. **🔑 Set up Google Gemini API Key**
    - Visit [Google AI Studio](https://aistudio.google.com/) to obtain an API key
    - Set the API key as a permanent environment variable:
      
+     For permanent storage (Run Powershell as Administrator)
      ```powershell
-     # For permanent storage (system level, requires administrator permission)
      [System.Environment]::SetEnvironmentVariable("GEMINI_API_KEY", "your-api-key-here", "Machine")
      ```
 
@@ -69,20 +69,20 @@ This project provides a seamless workflow to customize your resume for job appli
 ### ⚡ Quick Start (Windows)
 
 1. **📝 Edit the job description file**
+   Open JD.txt in your favorite editor
    ```powershell
-   # Open JD.txt in your favorite editor
    notepad JD.txt
-   # Paste the job description and save
    ```
+   Paste the job description and save
 
-2. **▶️ Run the tailoring script**
+3. **▶️ Run the tailoring script**
+   Either double-click on Resume_Tailor.bat
+   Or run it from PowerShell
    ```powershell
-   # Either double-click on Resume_Tailor.bat
-   # Or run it from PowerShell
    .\Resume_Tailor.bat
    ```
 
-3. **✨ Enjoy your tailored resume!**
+5. **✨ Enjoy your tailored resume!**
    The script will:
    - Generate a tailored LaTeX resume
    - Compile it into a PDF
@@ -109,13 +109,13 @@ The PowerShell script accepts the following parameters:
 ## ✏️ Customizing Your Resume
 
 1. **📄 Edit the LaTeX template**
+   Open the template in your favorite editor
    ```powershell
-   # Open the template in your favorite editor
    notepad myresume.tex
    ```
    Update your personal information, work experience, education, and skills
 
-2. **🧩 The AI tailoring process** will preserve your resume structure while optimizing the content for each job application
+3. **🧩 The AI tailoring process** will preserve your resume structure while optimizing the content for each job application
 
 
 ## 📄 License
